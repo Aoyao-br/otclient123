@@ -1,8 +1,9 @@
 ActionButton < UIButton
   font: cipsoftFont
-  size: 34 34
-  margin-left: 2
+  size: 52 52          // Aumentamos de 34 para 52 para o seu polegar
+  margin-left: 5       // Mais espaço entre um botão e outro
   image-source: /images/game/actionbar/actionbarslot
+
   Item
     id: item
     anchors.fill: parent
