@@ -17,7 +17,7 @@ ActionButton < UIButton
     $!on:
       image-source: /images/game/actionbar/actionbarslot
       image-color: #dfdfdf
-      image-clip: 0 0 34 34
+      image-clip: 0 0 52 52
       image-border: 0
     $on:
       image-source: /images/ui/button
@@ -36,7 +36,7 @@ ActionButton < UIButton
       visible: false
     Label
       id: text
-      size: 30 27
+      size: 48 45
       anchors.fill: prev
       text-wrap: true
       text-align: center
